@@ -169,11 +169,8 @@ class MotoreGioco:
 # Questa classe racchiude il motore pensante del gioco, il quale estrae informazioni dal dataset IMDb e le randomizza per le domande
     
     def __init__(self):
-        # Percorso del file (aggiorna con il percorso esatto al tuo file)
         file_path = "imdb_top_2000_movies.csv"
         print(f"Tentativo di caricamento file in: {file_path}")
-
-        # Carica il file CSV con la codifica utf-8
         try:
             self.df = pd.read_csv(file_path, encoding="utf-8")
             print(f"File caricato con successo")
