@@ -170,7 +170,7 @@ class MotoreGioco:
     
     def __init__(self):
         # Percorso del file (aggiorna con il percorso esatto al tuo file)
-        file_path = ""
+        file_path = "imdb_top_2000_movies.csv"
         print(f"Tentativo di caricamento file in: {file_path}")
 
         # Carica il file CSV con la codifica utf-8
