@@ -170,10 +170,10 @@ class MotoreGioco:
     
     def __init__(self):
         file_path = "imdb_top_2000_movies.csv"
-        print(f"Tentativo di caricamento file in: {file_path}")
+        print(f"Caricamento dataset IMDb")
         try:
             self.df = pd.read_csv(file_path, encoding="utf-8")
-            print(f"File caricato con successo")
+            print(f"Dataset IMDb caricato con successo")
         except FileNotFoundError as errore:
             print(f"Errore: {errore}")
             raise
