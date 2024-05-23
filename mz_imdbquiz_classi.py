@@ -56,8 +56,8 @@ class Interfaccia:
 # Questa classe propone i vari step parte del gioco i quali interagiscono con le classi MotoreGioco, Inizio e Statistiche
 
     def __init__(self, statistiche):
-        self.statistiche = statistiche # Questa variabile riprende l"istanza di Interfaccia in Inizio
-        self.motore_gioco = MotoreGioco() # Si inizializza un"istanza che accede a MotoreGioco
+        self.statistiche = statistiche # Questa variabile riprende l'istanza di Interfaccia in Inizio
+        self.motore_gioco = MotoreGioco() # Si inizializza un'istanza che accede a MotoreGioco
     
     def nuova_partita(self):
         print(f"Prima di iniziare una nuova partita, inserisci il tuo nome")
