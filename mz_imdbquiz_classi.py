@@ -174,11 +174,11 @@ class MotoreGioco:
         try:
             self.df = pd.read_csv(file_path, encoding="utf-8")
             print(f"File caricato con successo")
-        except FileNotFoundError as e:
-            print(f"Errore: {e}")
+        except FileNotFoundError as errore:
+            print(f"Errore: {errore}")
             raise
-        except UnicodeDecodeError as e:
-            print(f"Errore di decodifica: {e}")
+        except UnicodeDecodeError as errore:
+            print(f"Errore di decodifica: {errore}")
             raise
 
     def recupera_info_film(self, titolo_film):
