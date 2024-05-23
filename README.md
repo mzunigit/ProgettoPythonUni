@@ -1,4 +1,4 @@
-# Progetto Finale corso Python
+# Progetto Finale corso Python / MDSEBF
 
 Questo repository contiene i file utilizzati per lo sviluppo del progetto finale del corso Python
 
