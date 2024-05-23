@@ -1,2 +1,2 @@
-from mz_imdbquiz_tests import Inizio, Interfaccia, Statistiche, MotoreGioco
+from mz_imdbquiz_classi import Inizio, Interfaccia, Statistiche, MotoreGioco
 Inizio.principale()
